@@ -8,7 +8,8 @@
   tasks:
   - name: print  details
     vars:
-    course: "devops" # task level var
+     course: "devops" # task level var
     ansible.builtin.debug:
-     msg: "Course: {{ Course }}, Duration: {{ Duration }}, Instructor: {{ Instructor }}"
+     msg: "Course: {{ course }}, Duration: {{ Duration }}, Instructor: {{ Instructor }}"
 
+  
