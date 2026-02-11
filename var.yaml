@@ -5,7 +5,7 @@
     Course:
     Duration: 3 months
     Instructor: Lukey
-    tasks:
+  tasks:
      - name: print course details
        ansible.builtin.debug:
        msg: "Course: {{ Course }}, Duration: {{ Duration }}, Instructor: {{ Instructor }}"
